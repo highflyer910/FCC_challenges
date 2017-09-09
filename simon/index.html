@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simon Game</title>
+	<link href="https://fonts.googleapis.com/css?family=Righteous|Press Start 2P" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<div class="main">
+  <div class="game">
+    <div class="controls">
+      <h3>Simon<span class="smallTxt"></span> Game</h3>
+      <div class="row interface">
+        <div class="count"></div>
+        <div class="ctrlBtn" id="startBtn">
+        </div>
+        <div class="ctrlBtn" id="strictBtn">
+        </div>
+        <div class="strictLight">
+        </div>
+      </div>
+      <div class="row label">Start&nbsp;&nbsp;&nbsp;Strict
+      </div>
+      <div class="container powerSwitchSlot">
+        <div class="powerSwitch"></div>
+      </div>
+      <div class="row powerLabel">Off-On</div>
+
+    </div>
+
+    <div class="colorBtn greenBtn" id="1"></div>
+    <div class="colorBtn redBtn" id="2"></div>
+    <div class="colorBtn blueBtn" id="3"></div>
+    <div class="colorBtn yellowBtn" id="4"></div>
+
+
+  </div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
