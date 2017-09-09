@@ -14,4 +14,4 @@
  10. Simon Game
  
  
-Check my FCC Front End Certificate <a href="https://www.freecodecamp.org/highflyer910/front-end-certification" target="blank">here</a>
+Check my FCC Front End Certificate <a href="https://www.freecodecamp.org/highflyer910/front-end-certification" target="_blank">here</a>
