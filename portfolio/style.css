@@ -1,0 +1,110 @@
+body {
+  background-color: #222831;
+  margin-top: 5px;
+  font-family: 'Bree Serif', serif;
+}
+
+
+#navigation {
+  border: 1px solid #393E46;
+  background: #F96D00;
+  box-shadow: 0 0 30px  #393E46;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #393E46;
+  font-size: 20px;
+}
+
+.caption >a {
+  color: #EB6841;
+  text-shadow: 2px 2px 5px #EB6841;
+}
+
+.jumbotron {
+  background-color: #F96D00;
+}
+
+#about {
+  background-color: #393E46;
+  margin-top: .5%;
+  box-shadow: 0 0 30px #a84900;
+}
+
+#about-img {
+  border: 6px solid #F96D00;
+  margin-top: 10%;
+  height: 250px;
+  width: 250px;
+}
+
+#about-txt {
+  margin-left: 10%;
+  color: #F2F2F2;
+}
+
+#socialButtons {
+  margin-left: 20%;
+}
+
+#socialButtons >a {
+  color: #222831;
+}
+
+#socialButtons > a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+#portfolio {
+  background-color: #393E46;
+  margin-top: .5%;
+  box-shadow: 0 0 30px #a84900;
+}
+
+.row {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+h2 {
+  text-shadow: 2px 2px 5px #6A4A3C;
+  font-family: 'Bree Serif', serif;
+  color: #F96D00;
+  margin-left: 10%;
+  font-size: 50px;
+}
+
+a > h2 {
+  margin-left: 0%;
+  font-size: 30px;
+}
+
+#portfolio > h2 {
+  text-align: center;
+  margin-right: 15%;
+}
+
+h2 > small {
+  color: #F96D00;
+}
+
+.thumbnail {
+  background-color: #F2F2F2;
+}
+
+.thumbnail > img {
+  height: 400px;
+}
+
+footer {
+  text-align: center;
+  font-size: 20px;
+  margin-right: 2%;
+  color: #393E46;
+}
+
+p {
+  color: #393E46;
+}

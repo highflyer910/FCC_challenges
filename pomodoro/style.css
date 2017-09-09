@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif|Roboto:300);
+body {
+  margin-top: 50px;
+}
+.container {
+  text-align: center;
+  color: #542437;
+}
+
+#label {
+  margin-bottom: -40px;
+  font-family:  'Roboto', Sans-Serif;
+  font-size: 50px;
+}
+
+.break {
+  color: #C02942;
+}
+
+.work {
+  color: #C02942;
+}
+
+.timer {
+  font-size: 25px;
+}
+
+.clock {
+  Font-Family: 'Droid Serif', Serif;
+  font-size: 25px;
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border-radius: 50%;
+  background-color: #D95B43;
+  border: 5px solid #D95B43;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#time {
+  font-size: 50px;
+  padding-top: 45px;
+}
+
+body {
+  background: #ECD078;
+}
+
+#switchreset {
+  margin-top: 30px;
+}
+
+.pointer {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+#switchreset {
+  cursor: pointer;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.breakwork {
+  padding-bottom: 20px;
+  margin-top: 30px;  
+}
+
+
+img {
+  height: 50%;
+  width: 25%; 
+}
+

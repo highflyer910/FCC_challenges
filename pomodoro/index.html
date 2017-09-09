@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+  <div class="row heylisten">
+    <div class="col-md-4 col-xs-8 col-md-offset-4 col-xs-offset-2">
+      <h1 id="label">Pomodoro Timer</h1>
+    </div>
+  </div>
+</div>
+
+
+<div class="container">
+  <div class="row breakwork">
+    <div class="col-sm-2 col-sm-offset-4">
+      <h2 class="break">Break</h2>
+      <span class="timer">
+        <span id="breakminus" class="pointer">-</span>
+      <span id="break_length">5</span>
+      <span id="breakplus" class="pointer">+</span>
+      </span>
+    </div>
+    <div class="col-sm-2">
+      <h2 class="work">Work</h2>
+      <span class="timer">
+        <span id="workminus" class="pointer">-</span>
+      <span id="worklength">25</span>
+      <span id="workplus" class="pointer">+</span>
+      </span>
+    </div>
+  </div>
+
+  <div class="clock go">
+    <div id="time">25:00</div>
+    <div id="go">Go</div>
+  </div>
+
+  <div class="row" id="switchreset">
+    <div class="col-xs-2 col-xs-offset-4">
+      <span id="switch">Switch</span>
+    </div>
+    <div class="col-xs-2">
+      <span id="reset">Reset</span>
+    </div>
+  </div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>

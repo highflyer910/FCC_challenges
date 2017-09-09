@@ -1,0 +1,123 @@
+body{
+   background-image: url("https://s3.amazonaws.com/dailydot/cache/bb/80/bb80598a6e07d52abadbd8d891326ec0.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Lalezar';
+  color: #6441A4;
+}
+
+.container {
+  max-width: 600px;
+}
+
+h1 {
+  color: white;
+  margin: 3%;
+  font-size: 64px;
+}
+
+img {
+  border: 3px solid;
+  border-color: #35E415;
+  border-radius: 50%;
+  width: 63.33px;
+}
+
+input {
+  border:none;
+  color: #6441A4;
+  margin: 2%;
+}
+
+button {
+  background: #c5b2e8;
+  color: white;
+  font-family: lalezar;
+  border: none;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: #6441A5;
+  cursor: pointer;
+}
+
+.row {
+  transition: background-color 0.5s ease;
+  background: #c5b2e8;
+  padding: 10px;
+  margin: 10px;
+  max-height: 93px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+
+.row:hover {
+  position:relative;
+  background: #6441A4;
+  color: white;
+}
+
+.logo {
+  display:inline-block;
+  height: 100%;
+  padding:0;
+}
+
+.status {
+  height: 100%;
+  display:inline-block;
+  overflow: hidden;
+  padding-top: 17px;
+  font-size: 20px;
+  vertical-align:middle;
+  margin-left: 2%; 
+}
+
+.game {
+    text-overflow: ellipsis;
+}
+
+.name {
+  display:inline-block;
+  height:100%;
+  font-size: 20px;
+  padding-top: 17px;
+  margin-left: 2%;
+}
+
+
+a, a:hover, a:visited, a:focus {
+  color: #6441A4;
+  text-decoration: none;
+  
+}
+
+.offline {
+  border: 5px solid;
+  border-color: #6441A4;;
+}
+
+@media only screen and (max-width: 500px) {
+  .name {
+    font-size: 16px;
+  }
+   .status {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .name {
+    font-size: 12px;
+  }
+ .status {
+    font-size: 12px;
+  }
+  
+}
