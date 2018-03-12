@@ -8,7 +8,7 @@
  4. Weather App
  5. Wikipedia Viewer
  6. Twitch TV
- 7. Calculator(Javascript)
+ 7. Calculator(Vue)
  8. Pomodoro Clock
  9. Tic Tac Toe game
  10. Simon Game
