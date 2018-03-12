@@ -1,51 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Calculator</title>
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+	<title>Calculator</title>
+	<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.3/vue.min.js"></script>
 </head>
-<body id="calc">
+<body>
+    <div class="calculator">
+    	<p>Calculate</p>
+      <div class="display">
+        {{ display }}
+      </div>
+      <div class="buttons">
+        <div class="one">
+          <button class="delete" @click="del()">CE</button>
+          <button class="clear" @click="clear()">C</button>
+        </div>
+        <div class="two">
+          <button @click="setNum('7')">7</button>
+          <button @click="setNum('8')">8</button>
+          <button @click="setNum('9')">9</button>
+          <button @click="setSym('/')">/</button>
+          <button @click="setNum('4')">4</button>
+          <button @click="setNum('5')">5</button>
+          <button @click="setNum('6')">6</button>
+          <button @click="setSym('x')">x</button>
+          <button @click="setNum('1')">1</button>
+          <button @click="setNum('2')">2</button>
+          <button @click="setNum('3')">3</button>
+          <button @click="setSym('-')">-</button>
+          <button @click="setNum('0')">0</button>
+          <button @click="setNum('.')">.</button>
+          <button @click="setSym('+')">+</button>
+          <button @click="calculate()">=</button>
+        </div>
+      </div>
+      <div class="split-credit">
 
-  <div class="wrap">
-    <div class="calc">
-      <div class="results">
-        <div class="accum">
-          <p id="num-a"></p>
-          <p id="operator"></p>
-          <p id="num-b"></p>
-        </div>
-        <p class="res" id="result"></p>
-      </div>
-      <div class="keypad">
-        <div class="row">
-          <button class="key" data-value="7" data-action="number">7</button>
-          <button class="key" data-value="8" data-action="number">8</button>
-          <button class="key" data-value="9" data-action="number">9</button>
-          <button class="key" data-value="+" data-action="operation">+</button>
-        </div>
-        <div class="row">
-          <button class="key" data-value="4" data-action="number">4</button>
-          <button class="key" data-value="5" data-action="number">5</button>
-          <button class="key" data-value="6" data-action="number">6</button>
-          <button class="key" data-value="-" data-action="operation">-</button>
-        </div>
-        <div class="row">
-          <button class="key" data-value="1" data-action="number">1</button>
-          <button class="key" data-value="2" data-action="number">2</button>
-          <button class="key" data-value="3" data-action="number">3</button>
-          <button class="key" data-value="*" data-action="operation">*</button>
-        </div>
-        <div class="row">
-          <button class="key" data-value="0" data-action="number">0</button>
-          <button class="key" data-value="c" data-action="operation">c</button>
-          <button class="key" data-value="/" data-action="operation">/</button>
-          <button class="key" data-value="=" data-action="calculate">=</button>
-        </div>
-      </div>
+				<p>&copy; Made with ❤ by <a href="#">Thea</a></p>	
+
+			</div>	
     </div>
-  </div>
-  <script src="main.js"></script>
-  </body>
+<script type="text/javascript" src="main.js"></script>
+</body>
 </html>

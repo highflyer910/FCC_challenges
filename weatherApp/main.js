@@ -2,7 +2,7 @@ $(function getWeather() {
       var url = 'https://api.wunderground.com/api/ebdf1b44bbe1dc70/geolookup/conditions/q/autoip.json';
       $.getJSON(url, function(data) {
         $('#city').append(data.location.city + ", " + data.location.country);
-        $('#temp').append(data.current_observation.feelslike_f + '&deg;F');
+        $('#temp').append(data.current_observation.feelslike_c + '&deg;C');
         $('#icon').attr('src', data.current_observation.icon_url);
         $('#condition').append(data.current_observation.weather);
         

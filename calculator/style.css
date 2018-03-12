@@ -1,71 +1,77 @@
-
-#calc {
-  align-items: center;
-  background-color: #3C3B5C;
-  display: flex;
-  height: 95vh;
-  justify-content: center;
+body {
+  color: ##edfffd;
+  background: repeating-linear-gradient(90deg, #f0f0f0 0, #f0f0f0 5%, transparent 0, transparent 50%) 0 / 35px 35px, repeating-linear-gradient(180deg, #f0f0f0 0, #f0f0f0 5%, transparent 0, transparent 50%) 0 / 35px 35px;
 }
 
-.results {
-  box-sizing: border-box;
-  height: 220px;
-  padding: 20px 20px;
-}
 
-.wrap {
-  background-color: #D53939;
-  border-radius: 20px;
-  border: 3px solid #FFB563;
-  box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);
-  height: 550px;
-  width: 360px;
-  top: 3%;
-  position: relative;
-}
-
-.row {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 20px;
-}
-
-.key {
-  background-color: #D53939;
-  border: 2px solid #FFB563;
-  border-radius: 50%;
-  color: #FFB563;
-  cursor: pointer;
-  display: inline-block;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  font-weight: bold;
-  height: 60px;
-  line-height: 50px;
+p {
   text-align: center;
-  width: 60px;
+  color: #b3f3ee;
+  text-transform: uppercase;
+  font-family: 'Orbitron', sans-serif;
 }
 
-.key:hover {
-  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+.calculator {
+  background-color: #485378;
+  width: 20em;
+  height: 31em;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 5px;
+  border: black solid 1px;
+  border-radius: 10px;
+  padding: 0px 20px 20px 20px;
+  box-shadow: 3px 3px 3px black;
 }
-.key:focus {
-  outline: none;
+.display {
+  padding: 15px;
+  margin: 10px;
+  text-align: right;
+  height: 1.2em;
+  border: black solid 1px;
+  border-radius: 5px; 
+  font-size: 20px;
+  background: #edfffd;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
 }
 
-.results > * {
-  color: #FFB563;
-  font-family: 'Roboto', sans-serif;
+.buttons button {
+  flex-grow: 1;
+  background-color: #b3f3ee;
+  font-size: 1.1em;
+  font-family: 'Orbitron', sans-serif;
+  width: 3.6em;
+  height: 3.6em;
+  padding: 5px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 8px;
+  cursor: pointer;
 }
 
-.results {
-  position: relative;
+button:hover {
+  background: #a2dbd6;
+}
+.one {
+  display: flex;
+  flex-grow: 1;
 }
 
-#result {
-  bottom: 0;
-  font-size: 48px;
-  padding-right: 20px;
-  position: absolute;
-  right: 0;
-}
+
+ .split-credit {
+    padding-top: 50px;
+  }
+
+  .split-credit p {
+    font-size: 12px;
+    line-height: 10px; 
+    color: black;
+  }
+
+  .split-credit p a {
+      color: black; 
+   }
