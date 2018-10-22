@@ -1,10 +1,10 @@
 body{
-   background-image: url("https://s3.amazonaws.com/dailydot/cache/bb/80/bb80598a6e07d52abadbd8d891326ec0.jpg");
-  background-position: center;
+  background-color: #21D4FD;
+  background-image: linear-gradient(19deg, #21D4FD 0%, #B721FF 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: 'Lalezar';
-  color: #6441A4;
+  color: #7371FE;
 }
 
 .container {
@@ -14,37 +14,20 @@ body{
 h1 {
   color: white;
   margin: 3%;
-  font-size: 64px;
 }
 
 img {
-  border: 3px solid;
-  border-color: #35E415;
+  border: 3px solid #7371FE;
   border-radius: 50%;
   width: 63.33px;
 }
 
 input {
   border:none;
-  color: #6441A4;
+  border-radius: 10px;
+  color: #7371FE;
   margin: 2%;
-}
-
-button {
-  background: #c5b2e8;
-  color: white;
-  font-family: lalezar;
-  border: none;
-  cursor: pointer;
-}
-
-button:focus {
-  outline: none;
-}
-
-button:hover {
-  background-color: #6441A5;
-  cursor: pointer;
+  padding: 3px;
 }
 
 .row {
@@ -59,7 +42,7 @@ button:hover {
 
 .row:hover {
   position:relative;
-  background: #6441A4;
+  background: #7371FE;
   color: white;
 }
 
@@ -93,14 +76,20 @@ button:hover {
 
 
 a, a:hover, a:visited, a:focus {
-  color: #6441A4;
+  color: #7371FE;
   text-decoration: none;
   
 }
 
+button{
+  border-radius: 10px;
+  border: none;
+  background: white;
+  color: #7371FE;
+}
+
 .offline {
-  border: 5px solid;
-  border-color: #6441A4;;
+  border: 5px solid #7371FE;
 }
 
 @media only screen and (max-width: 500px) {
