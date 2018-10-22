@@ -1,18 +1,18 @@
 body {
-  background-color: #222831;
+  background-color: #6E6460;
   margin-top: 5px;
   font-family: 'Bree Serif', serif;
 }
 
 
 #navigation {
-  border: 1px solid #393E46;
-  background: #F96D00;
-  box-shadow: 0 0 30px  #393E46;
+  border: 1px solid #6E6460;
+  background: #BCBFA3;
+  box-shadow: 0 0 30px  #6E6460;
 }
 
 .navbar-default .navbar-nav > li > a {
-  color: #393E46;
+  color: #6E6460;
   font-size: 20px;
 }
 
@@ -22,17 +22,17 @@ body {
 }
 
 .jumbotron {
-  background-color: #F96D00;
+  background-color: #BCBFA3;
 }
 
 #about {
-  background-color: #393E46;
+  background-color: #6E6460;
   margin-top: .5%;
-  box-shadow: 0 0 30px #a84900;
+  box-shadow: 0 0 30px #4f4845;
 }
 
 #about-img {
-  border: 6px solid #F96D00;
+  border: 6px solid #BCBFA3;
   margin-top: 10%;
   height: 250px;
   width: 250px;
@@ -48,18 +48,18 @@ body {
 }
 
 #socialButtons >a {
-  color: #222831;
+  color: #282523;
 }
 
 #socialButtons > a:hover {
   text-decoration: none;
-  color: #000;
+  color: #1c1a18;
 }
 
 #portfolio {
-  background-color: #393E46;
+  background-color: #6E6460;
   margin-top: .5%;
-  box-shadow: 0 0 30px #a84900;
+  box-shadow: 0 0 30px #4f4845;
 }
 
 .row {
@@ -71,14 +71,22 @@ body {
 h2 {
   text-shadow: 2px 2px 5px #6A4A3C;
   font-family: 'Bree Serif', serif;
-  color: #F96D00;
+  color: #BCBFA3;
   margin-left: 10%;
   font-size: 50px;
+  
 }
+
+.caption > a:hover{
+  text-decoration: none;
+}
+
+
 
 a > h2 {
   margin-left: 0%;
   font-size: 30px;
+  color: #6E6460;
 }
 
 #portfolio > h2 {
@@ -87,7 +95,7 @@ a > h2 {
 }
 
 h2 > small {
-  color: #F96D00;
+  color: #BCBFA3;
 }
 
 .thumbnail {
@@ -95,16 +103,17 @@ h2 > small {
 }
 
 .thumbnail > img {
-  height: 400px;
+  height: 300px;
 }
 
 footer {
   text-align: center;
   font-size: 20px;
   margin-right: 2%;
-  color: #393E46;
+  padding: 2%;
+  color: #6E6460;
 }
 
 p {
-  color: #393E46;
+  color: #6E6460;
 }
