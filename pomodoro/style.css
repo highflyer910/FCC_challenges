@@ -13,11 +13,7 @@ body {
   font-size: 50px;
 }
 
-.break {
-  color: #C02942;
-}
-
-.work {
+.break .work {
   color: #C02942;
 }
 
