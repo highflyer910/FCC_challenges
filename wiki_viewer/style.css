@@ -22,7 +22,8 @@ a {
   font-weight: bold;
 }
 a:hover{
-  color: #384030;
+  color: #ED834E;
+  text-decoration: none;
 }
 
 button{
@@ -41,6 +42,7 @@ button:hover{
 
 .form-control{
   margin-top: 5%;
+
 }
 p{
   padding-bottom: 1%;
